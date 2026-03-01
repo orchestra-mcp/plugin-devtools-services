@@ -1,0 +1,23 @@
+{
+    "name": "orchestra-mcp/plugin-devtools-services",
+    "description": "devtools-services tools plugin for Orchestra MCP.",
+    "type": "tools",
+    "license": "MIT",
+    "homepage": "https://orchestra-mcp.dev",
+    "support": {
+        "issues": "https://github.com/orchestra-mcp/plugin-devtools-services/issues",
+        "source": "https://github.com/orchestra-mcp/plugin-devtools-services"
+    },
+    "require": {
+        "orchestra-mcp/gen-go": "^0.1.0",
+        "orchestra-mcp/sdk-go": "^0.1.0"
+    },
+    "bin": "devtools-services",
+    "extra": {
+        "plugin-id": "tools.devtools-services",
+        "provides": ["tools"],
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
+}
